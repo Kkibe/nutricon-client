@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {Link} from 'react-router-dom';
 import Image from '../assets/kidney.png';
 
 function Service() {
+
+    const [inCart, setInCart] = useState(false);
 
     const data = {
         img : '',
@@ -44,7 +46,7 @@ function Service() {
                             <div className="p-1 text-muted lead">Reviews({reviews})</div>
 
 
-                            <Link href="#" className="btn btn-outline-success">Add To Cart</Link>
+                            <Link href="#" className="btn btn-outline-success">{inCart ? "Rsemove From Cart" : "Add To Cart"}</Link>
                           </div>
                     </div>
                 </div>

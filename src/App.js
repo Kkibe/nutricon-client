@@ -15,8 +15,13 @@ import Error from './pages/Error';
 
 import Login from './pages/Login';
 import Register from './pages/Register';
+import Dashboard from './pages/Dashboard';
 import SinglePost from './pages/SinglePost';
 import SingleService from './pages/SingleService';
+import Cart from "./components/Cart";
+import Social from "./components/Social";
+import Cookie from "./components/Cookie";
+import Checkout from "./components/Checkout";
 
 
 
@@ -25,8 +30,11 @@ const Layout = () => {
     <>
       <Topnav />
       <Outlet />
+      <Social />
+      <Cart />
       <Newsletter />
       <Footer />
+      <Cookie />
     </>
   )
 }
@@ -57,11 +65,11 @@ const router = createBrowserRouter([
         element: <Contact />
       },
       {
-        path: "/blogs:id",
+        path: "/blogs/id",
         element: <SinglePost/>
       },
       {
-        path: "/services:id",
+        path: "/services/id",
         element: <SingleService/>
       }
     ]
@@ -75,6 +83,14 @@ const router = createBrowserRouter([
     element: <Register/>
   },
   {
+    path: "/dashboard",
+    element: <Dashboard/>
+  },
+  {
+    path: "/checkout",
+    element: <Checkout />
+  },
+  {
     path: "*",
     element: <Error/>
   }
@@ -83,10 +99,8 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <div className='app'>
-      <div className=''>
-        <RouterProvider router={router} />
-      </div>
+    <div className='app position-relative'>
+      <RouterProvider router={router} />
     </div>
   );
 }

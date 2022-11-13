@@ -7,7 +7,7 @@ import Testimonial from '../components/Testimonial';
 function Home() {
   return (
     <div>
-      <div className="position-relative overflow-hidden p-1 p-md-5 m-md-3 text-center ">
+      <div className="container overflow-hidden p-1 p-md-5 m-md-3 text-center ">
           <h1 className="display-4 fw-normal">Nutrition Consultation</h1>
           <p className="lead fw-normal lead">We are Specialised in Delivering Comprehensive, High Quality Nutrition Counselling and Help in Establishing Healthy Feeding Programs</p>
           <a className="btn btn-outline-success" href="#">Book Now</a>

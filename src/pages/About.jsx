@@ -1,12 +1,11 @@
 import React from 'react';
 import AccordionItem from '../components/AccordionItem';
 import FeatureCard from '../components/FeatureCard';
-import {Link} from 'react-router-dom';
 import Food from '../assets/therapy.png';
 
 function About() {
   return (
-<div>
+<div >
 
 <section className="container my-5">
     <div className="row p-2 pb-0 pe-lg-0 pt-lg-1 align-items-center rounded-3 border shadow-lg">
@@ -16,7 +15,7 @@ function About() {
             We are a <span className='text-success'>Food</span> and <span className='text-success'>Nutrition</span>
             consultants organization that offer nutrition services and other related services.
         </p>
-        <button type="button" className="btn btn-outline-secondary btn-lg px-4">Lear More</button>
+        <button type="button" className="btn btn-outline-secondary btn-lg px-4">Learn More</button>
       </div>
       <div className="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
           <img className="rounded-lg-3" src={Food} alt="" width="720" />
@@ -42,9 +41,9 @@ function About() {
     </div>
 </section>
 
-<section className="container py-5">
+<section className="container py-5" id='faq'>
     <h1 className="h1 text-center">Frequently Asked Questions</h1>
-    <div className="accordion m-2 p-2" id="accordionExample">
+    <div className="accordion m-2 p-2" id="accordionExample ">
         <AccordionItem />
         <AccordionItem />
         <AccordionItem />

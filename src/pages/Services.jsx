@@ -1,8 +1,6 @@
 import React from 'react';
 import Service from '../components/Service';
-import {Link} from 'react-router-dom';
-import Image from '../assets/img.png';
-import Menopause from '../assets/menopause.png';
+import Menopause from '../assets/pregnancy.png';
 import Mental from '../assets/mental.png';
 import Vegeterian from '../assets/food.png';
 

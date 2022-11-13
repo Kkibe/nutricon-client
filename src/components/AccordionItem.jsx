@@ -14,7 +14,7 @@ function AccordionItem() {
                 {quiz}
             </button>
         </h2>
-        <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div id="collapseOne" className="accordion-collapse collapse" /*className="accordion-collapse collapse show"} aria-labelledby="headingOne" data-bs-parent="#accordionExample"*/>
             <div className="accordion-body">
             <strong>{ans}</strong> 
             </div>

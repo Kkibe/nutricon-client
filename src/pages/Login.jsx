@@ -21,7 +21,7 @@ function Login() {
           </div>
           <button className="w-100 btn btn-lg btn-primary" type="submit">Login</button>
           <hr className="my-4" />
-          <small className="text-muted">Don't have an account?<a href="#" className="px-2 ">Register</a></small>
+          <small className="text-muted">Don't have an account?<a href="/register" className="px-2 ">Register</a></small>
         </form>
     </div>
   </div>

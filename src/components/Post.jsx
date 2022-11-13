@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Image from '../assets/img.png'
 
 function Post() {
@@ -19,9 +18,9 @@ function Post() {
       This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
       </p>
       <div className="d-flex justify-content-between align-items-center">
-            <Link to={`/blogs`} className="btn border btn-light text-success">Read More</Link>
-          <small className="text-muted">9 mins</small>
-        </div>
+        <a href={`/blogs`} className="btn border btn-light text-success">Read More &raquo;</a>
+        <small className="text-muted">9 mins</small>
+      </div>
       
     </div>
     </div>
