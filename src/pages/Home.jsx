@@ -4,19 +4,16 @@ import Post from '../components/Post';
 import FeatureCard from '../components/FeatureCard';
 import Testimonial from '../components/Testimonial';
 
-function Home() {
+function Home() { 
   return (
     <div>
-      <div className="container overflow-hidden p-1 p-md-5 m-md-3 text-center ">
+      <section className="container py-5  d-flex flex-column align-items-center justify-content-center bg-light mb-2">
           <h1 className="display-4 fw-normal">Nutrition Consultation</h1>
-          <p className="lead fw-normal lead">We are Specialised in Delivering Comprehensive, High Quality Nutrition Counselling and Help in Establishing Healthy Feeding Programs</p>
-          <a className="btn btn-outline-success" href="#">Book Now</a>
-        <div className="product-device shadow-sm d-none d-md-block"></div>
-        <div className="product-device product-device-2 shadow-sm d-none d-md-block"></div>
-      </div>
-
-      <section className="container py-2">
-        <div className="row border justify-content-evenly m-2 p-2">
+          <p className="lead fw-normal lead text-center px-5">We are Specialised in Delivering Comprehensive, High Quality Nutrition Counselling and Help in Establishing Healthy Feeding Programs</p>
+          <a className="btn btn-outline-success" href="#">Book Now</a>       
+      </section>
+      <section className="container py-2 border">
+        <div className="row justify-content-evenly m-2 p-2">
           <div className="col col-12 col-md-5  row  justify-content-center align-items-center text-uppercase">
              We Value Cultural Food Heritage
           </div>

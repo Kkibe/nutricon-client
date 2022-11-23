@@ -1,8 +1,11 @@
+import React, { useMemo, useState } from "react";
 import {
   createBrowserRouter,
   RouterProvider,
   Outlet,
 } from "react-router-dom";
+import { UserContext } from "./UserContext";
+
 import Topnav from "./components/Topnav";
 import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
@@ -17,11 +20,12 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
 import SinglePost from './pages/SinglePost';
-import SingleService from './pages/SingleService';
-import Cart from "./components/Cart";
 import Social from "./components/Social";
 import Cookie from "./components/Cookie";
-import Checkout from "./components/Checkout";
+import SingleService from "./pages/SingleService";
+
+
+
 
 
 
@@ -31,7 +35,6 @@ const Layout = () => {
       <Topnav />
       <Outlet />
       <Social />
-      <Cart />
       <Newsletter />
       <Footer />
       <Cookie />
@@ -70,7 +73,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/services/id",
-        element: <SingleService/>
+        element: <SingleService />
       }
     ]
   },
@@ -87,10 +90,6 @@ const router = createBrowserRouter([
     element: <Dashboard/>
   },
   {
-    path: "/checkout",
-    element: <Checkout />
-  },
-  {
     path: "*",
     element: <Error/>
   }
@@ -98,9 +97,14 @@ const router = createBrowserRouter([
 ])
 
 function App() {
+  const [user, setUser] = useState(null);
+
+  //const value = useMemo(() => ({user, setUser}), [user, setUser]);
   return (
     <div className='app position-relative'>
-      <RouterProvider router={router} />
+      <UserContext.Provider value={{user, setUser}}>
+        <RouterProvider router={router} />
+      </UserContext.Provider>
     </div>
   );
 }

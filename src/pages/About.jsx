@@ -7,7 +7,7 @@ function About() {
   return (
 <div >
 
-<section className="container my-5">
+<section className="container my-3">
     <div className="row p-2 pb-0 pe-lg-0 pt-lg-1 align-items-center rounded-3 border shadow-lg">
       <div className="col-lg-7 p-3 p-lg-4 pt-lg-3">
         <h1 className="display-4 fw-bold lh-1">About Us</h1>
@@ -18,7 +18,7 @@ function About() {
         <button type="button" className="btn btn-outline-secondary btn-lg px-4">Learn More</button>
       </div>
       <div className="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-          <img className="rounded-lg-3" src={Food} alt="" width="720" />
+          <img className="rounded-lg-3" src={Food} alt="" width="620" />
       </div>
     </div>
 </section>

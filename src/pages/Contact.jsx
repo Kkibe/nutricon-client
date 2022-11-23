@@ -5,7 +5,7 @@ function Contact() {
   return (
 <div className="container py-5">
         <h1 className=" h1 text-center">Let's Hear From You</h1>
-        <div className="row py-5">
+        <div className="row py-2">
             <form className="col-md-9 m-auto" method="post" role="form">
                 <div className="row">
                     <div className="form-group col-md-6 mb-3">

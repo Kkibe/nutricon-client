@@ -1,23 +1,26 @@
 import React, { useState } from 'react';
-import {Link} from 'react-router-dom';
+import { useContext } from 'react';
 import Image from '../assets/img.png'
+import { UserContext } from '../UserContext';
+import {  Link, NavLink} from "react-router-dom";
+import Icon from '../assets/icon.png';
 
 function Topnav() {
-  const [user, setUser] = useState(false);
+  const {user, setUser} = useContext(UserContext); 
   return (
   <nav className="text-bg-dark   bg-warning  sticky-top  ">
   <header className="p-0 border-bottom  ">
     <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start p-2 ">
       <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-        <img src={Image} alt="mdo" width="32" height="32" className="rounded-circle border me-2" />
+        <img src={Icon} alt="mdo" width="32" height="32" className="rounded-circle border me-2" />
         <span className="fs-4 text-success lead">Nutricon</span>
       </a>
         <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 nav-pills">
-          <li className="nav-item mx-3"><a href="/" className="nav-link px-2 text-light active bg-dark ">Home</a></li>
-          <li className="nav-item "><a href="/services" className="nav-link px-2  link-dark">Services</a></li>
-          <li className="nav-item "><a href="/blogs" className="nav-link px-2 link-dark">Blogs</a></li>
-          <li className="nav-item "><a href="/about" className="nav-link px-2 link-dark">About</a></li>
-          <li className="nav-item "><a href="/contact" className="nav-link px-2 link-dark">Contact</a></li>
+          <li className="nav-item mx-3"><NavLink to='/' className='nav-link px-2'  title='home'>Home</NavLink></li>
+          <li className="nav-item mx-3"><NavLink to='/services' className='nav-link px-2'  title='services'>Services</NavLink></li>
+          <li className="nav-item mx-3"><NavLink to='/blogs' className='nav-link px-2' title='blogs'>Blogs</NavLink></li>
+          <li className="nav-item mx-3"><NavLink to='/about' className='nav-link px-2' title='about us'>About</NavLink></li>
+          <li className="nav-item mx-3"><NavLink to='/contact' className='nav-link px-2' title='contact'>Contact</NavLink></li>
         </ul>
 
         {

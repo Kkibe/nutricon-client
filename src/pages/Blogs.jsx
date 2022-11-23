@@ -1,13 +1,27 @@
-import React from 'react';
+import axios from 'axios';
+import React, { useEffect } from 'react';
+import { useState } from 'react';
 import Post from '../components/Post';
 
 function Blogs() {
+  const [posts, setPosts] = useState([]);
+
+  useEffect(() => {
+    const fetchPosts = async () => {
+      const res = await axios.get('http://localhost:5000/api/blogs')
+      setPosts(res.data);
+      console.log(posts)
+    }
+
+    fetchPosts();
+    
+  },[])
   return (
-  <div className="container my-5">
-      <div className="h-100 p-5 bg-light border rounded-3 my-5">
-        <h2>Add borders</h2>
-        <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
-        <button className="btn btn-outline-secondary" type="button">Explore &raquo;</button>
+  <div className="container">
+      <div className="h-100 p-4 bg-light border rounded-3 my-3">
+        <h2>Lose weight faster</h2>
+        <p>You can lose weight within 30 days by doing this simple tricks everyday.</p>
+        <button className="btn btn-outline-secondary" type="button">Learn How &raquo;</button>
       </div>
       <div className="row justify-content-evenly">
         <Post />
