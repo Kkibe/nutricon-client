@@ -3,7 +3,7 @@ import Image from '../assets/img.png'
 
 function Testimonial() {
   return (
-<div className="col-sm-6 col-lg-4 mb-4">
+<div className="col-sm-6 col-lg-4 mb-4 mh-4">
       <div className="card">
         <div className="card-body">
           <img src={Image} alt="mdo" width="32" height="32" className="rounded-circle border" />
