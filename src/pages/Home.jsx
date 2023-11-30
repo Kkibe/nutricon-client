@@ -8,7 +8,7 @@ import Testimonial from '../components/Testimonial';
 import {Swiper, SwiperSlide} from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
-import {Navigation} from "swiper/modules";
+import {Navigation, Pagination} from "swiper/modules";
 function Home() { 
   return (
     <div>
@@ -54,7 +54,7 @@ function Home() {
       <section className="container py-5">
         <h1 className="h1 text-center">Happy Clients</h1>
         <div className="row justify-content-evenly">
-          <Swiper navigation={true} pagination={true} modules={[Navigation. Pagination]}>
+          <Swiper navigation={true} pagination={true} modules={[Navigation, Pagination]}>
             <SwiperSlide><Testimonial /></SwiperSlide>
             <SwiperSlide><Testimonial /></SwiperSlide>
             <SwiperSlide><Testimonial /></SwiperSlide>
