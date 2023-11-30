@@ -4,6 +4,11 @@ import Post from '../components/Post';
 import FeatureCard from '../components/FeatureCard';
 import Testimonial from '../components/Testimonial';
 
+
+import {Swiper, SwiperSlide} from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+
 function Home() { 
   return (
     <div>
