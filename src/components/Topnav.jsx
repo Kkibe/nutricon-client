@@ -11,7 +11,7 @@ function Topnav() {
   <nav className="text-bg-dark   bg-warning  sticky-top  ">
   <header className="p-0 border-bottom  ">
     <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start p-2 ">
-      <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+      <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none icon-link">
         <img src={Icon} alt="mdo" width="32" height="32" className="rounded-circle border me-2" />
         <span className="fs-4 text-success lead">Nutricon</span>
       </a>
