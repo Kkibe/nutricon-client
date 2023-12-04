@@ -8,9 +8,9 @@ function Footer() {
     <div className="col-md-5 offset-md-1 mb-3">
         <h2 className="h2 text-success pb-3 logo">Nutricon</h2>
         <ul className="nav flex-column">
-          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">431 University way, Floor 2</a></li>
-          <li className="nav-item mb-2"><a href="tel:010-020-0340" className="nav-link p-0 text-muted">010-020-0340</a></li>
-          <li className="nav-item mb-2"><a href="mailto:info@company.com" className="nav-link p-0 text-muted">nutriconke@gmail.com</a></li>
+          <li className="nav-item mb-2"><NavLink className="nav-link p-0 text-muted">431 University way, Floor 2</NavLink></li>
+          <li className="nav-item mb-2"><NavLink to='/tel:010-020-0340' className="nav-link p-0 text-muted" title='phone' >010-020-0340</NavLink></li>
+          <li className="nav-item mb-2"><NavLink to='/mailto:info@company.com' className="nav-link p-0 text-muted" title='email' >nutriconke@gmail.com</NavLink></li>
         </ul>
       </div>
 
@@ -42,9 +42,9 @@ function Footer() {
     <div className="d-flex flex-column flex-sm-row justify-content-between py-2 my-1 border-top">
       <p className="col-md-4 mb-0 text-muted">&copy; 2022 Nutricon, Inc</p>
       <ul className="nav col-md-4 justify-content-end">
-        <li className="nav-item"><a href="#" className="nav-link px-2 ">Privacy</a></li>
-        <li className="nav-item"><a href="#" className="nav-link px-2 ">Terms</a></li>
-        <li className="nav-item"><a href="/about/#faq" className="nav-link px-2 ">FAQs</a></li>
+        <li className="nav-item"><NavLink to='/#' className="nav-link px-2 "  title='privacy policy'>Privacy</NavLink></li>
+        <li className="nav-item"><NavLink to='/#' className="nav-link px-2 " title='terms of use' >Terms</NavLink></li>
+        <li className="nav-item"><NavLink to='/about/#faq' className="nav-link px-2 " title='faq'>FAQs</NavLink></li>
       </ul>
     </div>
   </footer>
