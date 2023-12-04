@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Social() {
   return (
-    <div  className='position-fixed top-50 start-0 translate-middle-y'>
+    <div  className='position-fixed top-50 start-0 translate-middle-y d-sm-none'>
         <ul className="nav flex-column d-flex f;ex-direction-column">
           <li className="nav-item mb-2"><a href="https://facebook.com/kibet" className="nav-link p-0 text-muted border  mx-1 rounded-circle d-flex align-items-center justify-content-center bg-dark" style={{
             borderRadius: '50%',
