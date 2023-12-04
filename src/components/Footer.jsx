@@ -17,12 +17,11 @@ function Footer() {
       <div className="col-6 col-md-2 mb-3">
         <h5 className='text-light'>Explore now</h5>
         <ul className="nav flex-column">
-          <li className="nav-item mx-2"><NavLink to='/' className='nav-link px-2 p-0 text-muted'  title='home'>Home</NavLink></li>
-          <li className="nav-item mb-2"><a href="/" className="nav-link p-0 text-muted">Home</a></li>
-          <li className="nav-item mb-2"><a href="/services" className="nav-link p-0 text-muted">Services</a></li>
-          <li className="nav-item mb-2"><a href="/blogs" className="nav-link p-0 text-muted">Blogs</a></li>
-          <li className="nav-item mb-2"><a href="/about" className="nav-link p-0 text-muted">About</a></li>
-          <li className="nav-item mb-2"><a href="/contact" className="nav-link p-0 text-muted">Contact</a></li>
+          <li className="nav-item mx-2"><NavLink to='/' className='nav-link  p-0 text-muted px-2'  title='home'>Home</NavLink></li>
+          <li className="nav-item mb-2"><NavLink to='services' className="nav-link p-0 text-muted">Services</a></li>
+          <li className="nav-item mb-2"><NavLink to='/blogs' className="nav-link p-0 text-muted">Blogs</a></li>
+          <li className="nav-item mb-2"><NavLink to='/about' className="nav-link p-0 text-muted">About</a></li>
+          <li className="nav-item mb-2"><NavLink to='/contact' className="nav-link p-0 text-muted">Contact</a></li>
         </ul>
       </div>
 
