@@ -2,7 +2,7 @@ import React from 'react'
 
 function Newsletter() {
   return (
-    <div className='d-flex justify-content-center align-items-center py-5 bg-light'>
+    <div className='d-flex justify-content-center align-items-center py-5 bg-light col-12 col-md-4'>
         <form>
           <h3 className='h3'>Subscribe to our newsletter</h3>
           <p className='lead'>Monthly digest of what's new and exciting from us.</p>
