@@ -40,10 +40,10 @@ function Footer() {
 
     </div>
     <div className="d-flex flex-column flex-sm-row justify-content-between py-2 my-1 border-top">
-      <p className="col-md-4 mb-0 text-muted">&copy; 2022 Nutricon, Inc</p>
+      <p className="col-md-4 mb-0 text-muted">&copy; 2023 Nutricon, Inc</p>
       <ul className="nav justify-content-end">
-        <li className="nav-item"><NavLink to='/#' className="nav-link px-2 "  title='privacy policy'>Privacy</NavLink></li>
-        <li className="nav-item"><NavLink to='/#' className="nav-link px-2 " title='terms of use' >Terms</NavLink></li>
+        <li className="nav-item"><NavLink to='/privacy' className="nav-link px-2 "  title='privacy policy'>Privacy</NavLink></li>
+        <li className="nav-item"><NavLink to='/terms' className="nav-link px-2 " title='terms of use' >Terms</NavLink></li>
         <li className="nav-item"><NavLink to='/about/#faq' className="nav-link px-2 " title='faq'>FAQs</NavLink></li>
       </ul>
     </div>
