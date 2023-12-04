@@ -8,8 +8,11 @@ import { services } from '../data';
 function Services() {
   return (
   <div className='container'>
-    <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-4">
-      <div className="col">
+    <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-4 carousel slide">
+
+  <div class="carousel-inner">
+      
+      <div className="col carousel-item active">
         <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style={{
           backgroundImage: `url(${Mental})`,
           backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
@@ -19,7 +22,7 @@ function Services() {
         </div>
       </div>
 
-      <div className="col">
+      <div className="col carousel-item">
         <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style={{
           backgroundImage: `url(${Vegeterian})`,
           backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
@@ -28,7 +31,7 @@ function Services() {
           </div>
         </div>
       </div>
-      <div className="col">
+      <div className="col carousel-item">
         <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style={{backgroundImage: `url(${Menopause})`,
           backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
           <div className="d-flex flex-column h-100 p-3 pb-2 text-white text-shadow-1">
@@ -36,6 +39,16 @@ function Services() {
           </div>
         </div>
       </div>
+    </div>
+
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
     </div>
 
       <div className="b-example-divider"></div>
