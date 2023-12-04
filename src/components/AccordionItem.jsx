@@ -4,7 +4,7 @@ function AccordionItem() {
     const data = {
         quiz: 'lorem ipsum dolo sit amet',
         ans: "desc",
-        link : '',
+        link : 'https://www.google.com/',
       }
     const {quiz, ans, link} = data;
   return (
@@ -16,7 +16,7 @@ function AccordionItem() {
         </h2>
         <div id="collapseOne" className="accordion-collapse collapse" /*className="accordion-collapse collapse show"} aria-labelledby="headingOne" data-bs-parent="#accordionExample"*/>
             <div className="accordion-body">
-            <strong>{ans}</strong> 
+            <strong>{ans} <a href={link}> Learn More</a></strong> 
             </div>
         </div>
     </div>
