@@ -17,7 +17,7 @@ function Footer() {
       <div className="col-6 col-md-2 mb-3">
         <h5 className='text-light'>Explore now</h5>
         <ul className="nav flex-column">
-          <li className="nav-item mx-2"><NavLink to='/' className='nav-link  p-0 text-muted'  title='home'>Home</NavLink></li>
+          <li className="nav-item mb-2"><NavLink to='/' className='nav-link  p-0 text-muted'  title='home'>Home</NavLink></li>
           <li className="nav-item mb-2"><NavLink to='/services' className="nav-link p-0 text-muted" title='services'>Services</NavLink></li>
           <li className="nav-item mb-2"><NavLink to='/blogs' className="nav-link p-0 text-muted" title='blogs'>Blogs</NavLink></li>
           <li className="nav-item mb-2"><NavLink to='/about' className="nav-link p-0 text-muted" title='about'>About</NavLink></li>
