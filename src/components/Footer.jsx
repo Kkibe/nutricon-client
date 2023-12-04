@@ -18,10 +18,10 @@ function Footer() {
         <h5 className='text-light'>Explore now</h5>
         <ul className="nav flex-column">
           <li className="nav-item mx-2"><NavLink to='/' className='nav-link  p-0 text-muted px-2'  title='home'>Home</NavLink></li>
-          <li className="nav-item mb-2"><NavLink to='services' className="nav-link p-0 text-muted">Services</a></li>
-          <li className="nav-item mb-2"><NavLink to='/blogs' className="nav-link p-0 text-muted">Blogs</a></li>
-          <li className="nav-item mb-2"><NavLink to='/about' className="nav-link p-0 text-muted">About</a></li>
-          <li className="nav-item mb-2"><NavLink to='/contact' className="nav-link p-0 text-muted">Contact</a></li>
+          <li className="nav-item mb-2"><NavLink to='/services' className="nav-link p-0 text-muted" title='services'>Services</NavLink></li>
+          <li className="nav-item mb-2"><NavLink to='/blogs' className="nav-link p-0 text-muted" title='blogs'>Blogs</NavLink></li>
+          <li className="nav-item mb-2"><NavLink to='/about' className="nav-link p-0 text-muted" title='about'>About</NavLink></li>
+          <li className="nav-item mb-2"><NavLink to='/contact' className="nav-link p-0 text-muted" title='contact'>Contact</NavLink></li>
         </ul>
       </div>
 
