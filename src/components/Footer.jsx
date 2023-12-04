@@ -17,7 +17,7 @@ function Footer() {
       <div className="col-6 col-md-2 mb-3">
         <h5 className='text-light'>Explore now</h5>
         <ul className="nav flex-column">
-          <li className="nav-item mx-2"><NavLink to='/' className='nav-link  p-0 text-muted px-2'  title='home'>Home</NavLink></li>
+          <li className="nav-item mx-2"><NavLink to='/' className='nav-link  p-0 text-muted'  title='home'>Home</NavLink></li>
           <li className="nav-item mb-2"><NavLink to='/services' className="nav-link p-0 text-muted" title='services'>Services</NavLink></li>
           <li className="nav-item mb-2"><NavLink to='/blogs' className="nav-link p-0 text-muted" title='blogs'>Blogs</NavLink></li>
           <li className="nav-item mb-2"><NavLink to='/about' className="nav-link p-0 text-muted" title='about'>About</NavLink></li>
@@ -28,11 +28,11 @@ function Footer() {
       <div className="col-6 col-md-2 mb-3">
         <h5 className='text-light'>Useful Links</h5>
         <ul className="nav flex-column">
-          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Meal Planning</a></li>
-          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Food Recipes</a></li>
-          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Mental Health Nutrition</a></li>
-          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">My Cart</a></li>
-          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Get Started</a></li>
+          <li className="nav-item mb-2"><NavLink to='/meal-planning' className='nav-link  p-0 text-muted'  title='Meal Planning'>Meal Planning</NavLink></li>
+          <li className="nav-item mb-2"><NavLink to='/recipes' className='nav-link  p-0 text-muted'  title='Food Recipes'>Food Recipes</NavLink></li>
+          <li className="nav-item mb-2"><NavLink to='/articles/mental' className='nav-link  p-0 text-muted'  title='Nutrition Psychiatry' >Mental Health Nutrition</NavLink></li>
+          <li className="nav-item mb-2"><NavLink to='/cart' className='nav-link  p-0 text-muted'  title='My Cart'>My Cart</NavLink></li>
+          <li className="nav-item mb-2"><NavLink to='/register' className='nav-link  p-0 text-muted'  title='Register' >Get Started</NavLink></li>
         </ul>
       </div>
 
