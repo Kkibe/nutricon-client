@@ -15,7 +15,7 @@ function Topnav() {
         <img src={Icon} alt="mdo" width="32" height="32" className="rounded-circle border me-2" />
         <span className="fs-4 text-success lead">Nutricon</span>
       </a>
-        <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 nav-pills">
+        <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 nav-pills   d-none d-lg-block d-xl-none">
           <li className="nav-item mx-2"><NavLink to='/' className='nav-link px-2'  title='home'>Home</NavLink></li>
           <li className="nav-item mx-2"><NavLink to='/services' className='nav-link px-2'  title='services'>Services</NavLink></li>
           <li className="nav-item mx-2"><NavLink to='/blogs' className='nav-link px-2' title='blogs'>Blogs</NavLink></li>
@@ -25,7 +25,7 @@ function Topnav() {
 
         {
           user ? (
-            <div className="dropdown text-end">
+            <div className="dropdown text-end d-none d-lg-block d-xl-none">
             <a href="#" className="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
               <img src={Image} alt="mdo" width="32" height="32" className="rounded-circle border" />
             </a>
@@ -36,7 +36,7 @@ function Topnav() {
             </ul>
           </div>
           ) : (
-            <div className="text-end">
+            <div className="text-end d-none d-lg-block d-xl-none">
               <a href='/login' className="btn btn-outline-success me-2" role='button'>Login</a>
               <a href='/register' className="btn btn-outline-secondary me-2 " role='button'>Register</a>
           </div>
@@ -44,7 +44,7 @@ function Topnav() {
         }
     </div>
   </header>
-    <header className="py-2 m-1 border-bottom ">
+    <header className="py-2 m-1 border-bottom d-none d-lg-block d-xl-none">
       <div className="container d-flex flex-wrap justify-content-space-evenly">
         <form className="d-flex" role="search">
                 <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
