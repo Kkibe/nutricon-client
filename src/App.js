@@ -13,6 +13,7 @@ import Home from './pages/Home';
 import Services from './pages/Services';
 import Blogs from './pages/Blogs';
 import About from './pages/About';
+import AboutUs from './pages/AboutUs';
 import Contact from './pages/Contact';
 import Error from './pages/Error';
 
@@ -62,6 +63,10 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <About/>
+      },
+      {
+        path: "/about-us",
+        element: <AboutUs/>
       },
       {
         path: "/contact",
