@@ -2,6 +2,7 @@ import React from 'react';
 import AccordionItem from '../components/AccordionItem';
 import FeatureCard from '../components/FeatureCard';
 import Food from '../assets/therapy.png';
+import {  Link, NavLink} from "react-router-dom";
 
 function About() {
   return (
@@ -15,7 +16,7 @@ function About() {
             We are a <span className='text-success'>Food</span> and <span className='text-success'>Nutrition</span>
             consultants organization that offer nutrition services and other related services.
         </p>
-        <button type="button" className="btn btn-outline-secondary btn-lg px-4">Learn More</button>
+        <NavLink to='/about-us' className="btn btn-outline-secondary btn-lg px-4" role='button'>Learn More</NavLink>
       </div>
       <div className="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
           <img className="rounded-lg-3" src={Food} alt="" width="620" />
