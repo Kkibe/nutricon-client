@@ -29,7 +29,7 @@ function About() {
      <div class="col-md-6 p-4 p-sm-5 order-2 order-sm-1">
        <small class="text-uppercase" style="color: #9B5DE5;"></small>
        <h1 class="h2 mb-4" style="font-weight: 600;">Our <span style="color: #9B5DE5;">mission</span></h1>
-       <p class="text-secondary" style="line-height: 2;">Catering to the individualistic needs of each student.<br>
+       <p class="text-secondary" style="line-height: 2;">Catering to the individualistic needs of each student.<br/>
 High quality learning experience based on a broad and balanced curriculum.
 To empower students utilise their full potential spiritually, intellectually, physically, socially and morally.
 </p>
