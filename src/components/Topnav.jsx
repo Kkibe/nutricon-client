@@ -26,9 +26,9 @@ function Topnav() {
         {
           user ? (
             <div className="dropdown text-end d-none d-lg-block d-xl-none">
-            <a href="#" className="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            <NavLink to="/" className="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
               <img src={Image} alt="mdo" width="32" height="32" className="rounded-circle border" />
-            </a>
+            </NavLink>
             <ul className="dropdown-menu text-small">
               <li><a className="dropdown-item" href="#">New project...</a></li>
               <li><a className="dropdown-item" href="#">Settings</a></li>
@@ -37,8 +37,8 @@ function Topnav() {
           </div>
           ) : (
             <div className="text-end">
-              <a href='/login' className="btn btn-outline-success me-2" role='button'>Login</a>
-              <a href='/register' className="btn btn-outline-secondary me-2 " role='button'>Register</a>
+              <NavLink to='/login' className="btn btn-outline-success me-2" role='button'>Login</NavLink>
+              <NavLink to='/register' className="btn btn-outline-secondary me-2 " role='button'>Register</NavLink>
           </div>
           )
         }
