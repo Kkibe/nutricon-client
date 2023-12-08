@@ -5,11 +5,8 @@ import Food from '../assets/therapy.png';
 
 function AboutUs() {
   return (
-<div >
   <div className="container">
     <p>Hover over the card to see the drop shadow added</p>
-
-
     <div className="card-deck">
       <div className="card">
         <img className="card-img-top" src="https://dummyimage.com/600x400/000/fff" alt="Card image cap"/>
@@ -19,6 +16,7 @@ function AboutUs() {
           <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
         </div>
       </div>
+      
       <div className="card">
         <img className="card-img-top" src="https://dummyimage.com/600x400/000/fff" alt="Card image cap"/>
         <div className="card-body">
@@ -28,6 +26,7 @@ function AboutUs() {
         </div>
       </div>
     </div>
+  </div>
   )
 }
 
