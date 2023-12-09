@@ -1,7 +1,8 @@
 import Vegeterian from './assets/vegeterian.png';
-import Pregnancy from './assets/pregnancy.png';
 import Kidney from './assets/kidney.png';
+import Mental from './assets/mental.png';
 import MealPlan from './assets/mealplan.png';
+import Pregnancy from './assets/pregnancy.png';
 import FoodPyramid from './assets/foodpyramid.png';
 import Menopause from './assets/menopause.png';
 
@@ -56,8 +57,8 @@ export const services = [
     },
     {
         id: 4,
-        title: "Kidney disease management and treatment",
-        desc: 'We are a Food and Nutritionconsultants organization that offer nutrition services and other related services.',
+        title: "Meal Planning & Menu Services.",
+        desc: 'Better Meals! Healthy Life!',
         longDesc: '',
         links: [
             {
@@ -72,8 +73,8 @@ export const services = [
     },
     {
         id: 5,
-        title: "Kidney disease management and treatment",
-        desc: 'We are a Food and Nutritionconsultants organization that offer nutrition services and other related services.',
+        title: "Care For Mother and Baby.",
+        desc: 'Our Maternal and Child Care and Nutrion Counselling is good for a healthy nattion.',
         longDesc: '',
         links: [
             {
@@ -84,12 +85,12 @@ export const services = [
         ratings: 256,
         reviews: 1237,
         price: 145,
-        img: FoodPyramid
+        img: Pregnancy
     },
     {
         id: 6,
         title: "Healthy lifestyle even at menopause",
-        desc: 'We are a Food and Nutritionconsultants organization that offer nutrition services and other related services.',
+        desc: 'Menopause generally takes place between the ages of 45 and 55. For some it happens earlier, either naturally or sometimes as the result of certain surgeries or cancer treatments. Time in gardens and nature can support mental wellbeing, helping you feel relaxed and decreasing anxiety',
         longDesc: '',
         links: [
             {
@@ -116,7 +117,7 @@ export const services = [
         ratings: 256,
         reviews: 1237,
         price: 145,
-        img: Menopause
+        img: FoodPyramid
     },
     {
         id: 8,
