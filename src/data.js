@@ -42,7 +42,7 @@ export const services = [
         id: 3,
         title: "Treatment of mental health disorders",
         desc: 'The acts to improve the quality of life of people who suffer from mental health illnesses.',
-        longDesc: 'Promotion and prevention interventions work by identifying the individual, social and structural determinants of mental health, and then intervening to reduce risks, build resilience and establish supportive environments for mental health. Interventions can be designed for individuals, specific groups or whole populations.,
+        longDesc: 'Promotion and prevention interventions work by identifying the individual, social and structural determinants of mental health, and then intervening to reduce risks, build resilience and establish supportive environments for mental health. Interventions can be designed for individuals, specific groups or whole populations.',
         links: [
             {
                 name: 'Nutricon',
