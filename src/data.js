@@ -8,8 +8,8 @@ import Menopause from './assets/menopause.png';
 export const services = [
     {
         id: 1,
-        title: "Kidney disease management and treatment",
-        desc: 'We are a Food and Nutritionconsultants organization that offer nutrition services and other related services.',
+        title: "Diabetes management and treatment.",
+        desc: 'We will offer a curated counselling on how to track your blood sugar levels.',
         ratings: 256,
         reviews: 1237,
         price: 145,
@@ -26,8 +26,8 @@ export const services = [
     },
     {
         id: 3,
-        title: "Kidney disease management and treatment",
-        desc: 'We are a Food and Nutritionconsultants organization that offer nutrition services and other related services.',
+        title: "Treatment of mental health disorders",
+        desc: 'The acts to improve the quality of life of people who suffer from mental health illnesses.',
         ratings: 256,
         reviews: 1237,
         price: 145,
