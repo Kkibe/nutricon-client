@@ -53,14 +53,12 @@ function Home() {
 
       <section className="container py-5">
         <h1 className="h1 text-center">Happy Clients</h1>
-        <div className="row justify-content-evenly">
-          <Swiper navigation={true} pagination={true} modules={[Navigation, Pagination]}>
+        <Swiper className="row justify-content-evenly" navigation={true} pagination={true} modules={[Navigation, Pagination]}>
             <SwiperSlide><Testimonial /></SwiperSlide>
             <SwiperSlide><Testimonial /></SwiperSlide>
             <SwiperSlide><Testimonial /></SwiperSlide>
             <SwiperSlide><Testimonial /></SwiperSlide>
-          </Swiper>
-        </div>
+        </Swiper>
       </section>
 
       <section className="container py-5">
