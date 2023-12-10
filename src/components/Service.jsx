@@ -14,13 +14,12 @@ function Service({data}) {
                 {
                     data && (
                         <div className="card h-100  card mb-2 product-wap rounded-0">
-                    <Link href="shop-single.html">
                         <img src={data.img} className="card-img-top" alt="nutricon-icon" 
                         style={{
                             height: '160px',
                             objectFit: 'fill'
                         }}/>
-                    </Link>
+    
                     <div className="card-body">
                         <ul className="list-unstyled d-flex justify-content-between">
                             <li>
@@ -34,7 +33,7 @@ function Service({data}) {
                             
                             <li className="text-muted text-right border bg-light lead">${data.price}</li>
                         </ul>
-                        <Link href="shop-single.html" className="h5 text-decoration-none text-dark">{data.title} </Link>
+                        <Link to=`/services/{data.id}` className="h5 text-decoration-none text-dark">{data.title} </Link>
                         <p className="card-text mt-3">{data.desc}</p>
 
                         <div className="d-flex justify-content-between">
