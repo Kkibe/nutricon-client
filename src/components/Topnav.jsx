@@ -25,7 +25,7 @@ function Topnav() {
             <NavLink to="/" className="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
               <img src={Image} alt="mdo" width="32" height="32" className="rounded-circle border" />
             </NavLink>
-            <ul className="dropdown-menu text-small d-flex align-items-start justify-content-between" >
+            <ul className="dropdown-menu text-small d-flex flex-column h-50 fixed-right align-items-start justify-content-between" >
               <li><NavLink className="dropdown-item" to="/my-cart">My Cart</NavLink></li>
               <li><NavLink className="dropdown-item" to="/profile">My Profile</NavLink></li>
               <li><NavLink className="dropdown-item" to="/services/#">Add To Cart</NavLink></li>
