@@ -5,14 +5,10 @@ function SinglePost() {
   return (
     <div className='container '>
         <div className="tags d-flex align-items-center justify-content-evenly overflow-hidden mb-1">
-          <a href={`/blogs`} className="btn border btn-light text-secondary me-2">fitness</a>
-          <a href={`/blogs`} className="btn border btn-light text-secondary me-2">fitness fitness</a>
-          <a href={`/blogs`} className="btn border btn-light text-secondary me-2">lifestyle</a>
-          <a href={`/blogs`} className="btn border btn-light text-secondary me-2">health</a>
-          <a href={`/blogs`} className="btn border btn-light text-secondary me-2">fitness</a>
-          <a href={`/blogs`} className="btn border btn-light text-secondary me-2">fitness</a>
-          <a href={`/blogs`} className="btn border btn-light text-secondary me-2">fitness</a>
-          <a href={`/blogs`} className="btn border btn-light text-secondary me-2">fitness</a>
+          <a href={`/blogs?tag=nutrition`} className="btn border btn-light text-secondary me-2">nutrition</a>
+          <a href={`/blogs?tag=fitness`} className="btn border btn-light text-secondary me-2">fitness</a>
+          <a href={`/blogs?tag=lifestyle`} className="btn border btn-light text-secondary me-2">lifestyle</a>
+          <a href={`/blogs?tag=health`} className="btn border btn-light text-secondary me-2">health</a>
         </div>
       <div>
         <h1 className='h1'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
