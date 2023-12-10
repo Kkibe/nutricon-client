@@ -24,7 +24,7 @@ function Home() {
           </div>
           <div className="col col-12 col-md-6 position">
             <div className="ratio ratio-16x9">
-              <iframe src="https://www.youtube.com/embed/A_hXiYRp4HUBPlyp?rel=0" title="YouTube video" /*allowfullscreen*/></iframe>
+              <iframe src="https://www.youtube.com/embed/MZn2PMUWO-Y?rel=0" title="YouTube video" /*allowfullscreen*/></iframe>
             </div>
           </div>
         </div>
