@@ -21,7 +21,7 @@ function Topnav() {
       </a>
       {
           user ? (
-            <NavLink to="/" className="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            <NavLink to="/dashboard" className="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
               <img src={Image} alt="mdo" width="38" height="38" className="rounded-circle border" />
             </NavLink>
           ) : (
