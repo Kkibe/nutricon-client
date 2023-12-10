@@ -34,7 +34,7 @@ function Topnav() {
     </div>
   </header>
     <header className="py-1 border-bottom d-lg-block d-xl-block">
-      <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 nav-pills">
+      <ul className="nav col-12 col-lg-auto me-lg-auto justify-content-center mb-md-0 nav-pills">
           <li className="nav-item mx-2"><NavLink to='/' className='nav-link px-2'  title='home'>Home</NavLink></li>
           <li className="nav-item mx-2"><NavLink to='/services' className='nav-link px-2'  title='services'>Services</NavLink></li>
           <li className="nav-item mx-2"><NavLink to='/blogs' className='nav-link px-2' title='blogs'>Blogs</NavLink></li>
