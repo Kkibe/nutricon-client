@@ -8,7 +8,7 @@ import { services } from '../data';
 function Services() {
   return (
   <div className='container'>
-    <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-4 carousel slide">
+    <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 carousel slide">
 
   <div className="carousel-inner">
       
