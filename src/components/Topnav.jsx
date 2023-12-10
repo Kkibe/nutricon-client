@@ -15,15 +15,7 @@ function Topnav() {
         <img src={Icon} alt="mdo" width="32" height="32" className="rounded-circle border me-2" />
         <span className="fs-4 text-success lead">Nutricon</span>
       </a>
-        <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 nav-pills">
-          <li className="nav-item mx-2"><NavLink to='/' className='nav-link px-2'  title='home'>Home</NavLink></li>
-          <li className="nav-item mx-2"><NavLink to='/services' className='nav-link px-2'  title='services'>Services</NavLink></li>
-          <li className="nav-item mx-2"><NavLink to='/blogs' className='nav-link px-2' title='blogs'>Blogs</NavLink></li>
-          <li className="nav-item mx-2"><NavLink to='/about' className='nav-link px-2' title='about us'>About</NavLink></li>
-          <li className="nav-item mx-2"><NavLink to='/contact' className='nav-link px-2' title='contact'>Contact</NavLink></li>
-        </ul>
-
-        {
+      {
           user ? (
             <div className="dropdown text-end d-none d-lg-block d-xl-none">
             <NavLink to="/" className="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
@@ -41,7 +33,16 @@ function Topnav() {
               <NavLink to='/register' className="btn btn-outline-secondary me-2 " role='button'>Register</NavLink>
           </div>
           )
-        }
+      }
+        <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 nav-pills">
+          <li className="nav-item mx-2"><NavLink to='/' className='nav-link px-2'  title='home'>Home</NavLink></li>
+          <li className="nav-item mx-2"><NavLink to='/services' className='nav-link px-2'  title='services'>Services</NavLink></li>
+          <li className="nav-item mx-2"><NavLink to='/blogs' className='nav-link px-2' title='blogs'>Blogs</NavLink></li>
+          <li className="nav-item mx-2"><NavLink to='/about' className='nav-link px-2' title='about us'>About</NavLink></li>
+          <li className="nav-item mx-2"><NavLink to='/contact' className='nav-link px-2' title='contact'>Contact</NavLink></li>
+        </ul>
+
+        
     </div>
   </header>
     <header className="py-2 m-1 border-bottom d-none d-lg-block d-xl-none">
