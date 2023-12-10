@@ -53,7 +53,7 @@ export const services = [
         ratings: 256,
         reviews: 1237,
         price: 145,
-        img: Pregnancy
+        img: Mental
     },
     {
         id: 4,
@@ -90,8 +90,8 @@ export const services = [
     {
         id: 6,
         title: "Healthy lifestyle even at menopause",
-        desc: 'Menopause generally takes place between the ages of 45 and 55. For some it happens earlier, either naturally or sometimes as the result of certain surgeries or cancer treatments. Time in gardens and nature can support mental wellbeing, helping you feel relaxed and decreasing anxiety',
-        longDesc: '',
+        desc: 'Time in gardens, with your family and nature can support mental wellbeing, helping you feel relaxed and decreasing anxiety.',
+        longDesc: 'Menopause generally takes place between the ages of 45 and 55. For some it happens earlier, either naturally or sometimes as the result of certain surgeries or cancer treatments. ',
         links: [
             {
                 name: 'Thrive.org.uk',
