@@ -1,14 +1,15 @@
 import React from 'react'
 import Post from '../components/Post'
+import {NavLink} from "react-router-dom";
 
 function SinglePost() {
   return (
     <div className='container '>
         <div className="tags d-flex align-items-center justify-content-evenly overflow-hidden mb-1">
-          <a href={`/blogs?tag=nutrition`} className="btn border btn-light text-secondary me-2">nutrition</a>
-          <a href={`/blogs?tag=fitness`} className="btn border btn-light text-secondary me-2">fitness</a>
-          <a href={`/blogs?tag=lifestyle`} className="btn border btn-light text-secondary me-2">lifestyle</a>
-          <a href={`/blogs?tag=health`} className="btn border btn-light text-secondary me-2">health</a>
+          <NavLink to={`/blogs?tag=nutrition`} className="btn border btn-light text-secondary me-2">nutrition</NavLink>
+          <NavLink to={`/blogs?tag=fitness`} className="btn border btn-light text-secondary me-2">fitness</NavLink>
+          <NavLink to={`/blogs?tag=lifestyle`} className="btn border btn-light text-secondary me-2">lifestyle</NavLink>
+          <NavLink to={`/blogs?tag=health`} className="btn border btn-light text-secondary me-2">health</NavLink>
         </div>
       <div>
         <h1 className='h1'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
@@ -32,7 +33,7 @@ function SinglePost() {
 
       <div className="container justify-content-center mt-5 border-left border-right">
 
-    <div className="d-flex justify-content-center pt-3 pb-2"> <input type="text" name="text" placeholder="+ Add a note" className="form-control addtxt"/> </div>
+    <div className="d-flex justify-content-center pt-3 pb-2"> <input type="text" name="text" placeholder="write a comment..." className="form-control addtxt"/> </div>
 
     <div className="d-flex justify-content-center py-2">
 
