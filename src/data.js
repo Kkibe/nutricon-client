@@ -106,7 +106,7 @@ export const services = [
     {
      id: 7,
         title: "General Dietary Guidelines. ",
-        desc: 'Get guided on what you should be planning to include on your menus.,
+        desc: 'Get guided on what you should be planning to include on your menus.',
         longDesc: '',
         links: [
             {
