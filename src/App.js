@@ -69,11 +69,11 @@ const router = createBrowserRouter([
         element: <Contact />
       },
       {
-        path: "/blogs/id",
+        path: "/blogs/:id",
         element: <SinglePost/>
       },
       {
-        path: "/services/id",
+        path: "/services/:id",
         element: <SingleService />
       }
     ]
