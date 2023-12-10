@@ -21,22 +21,14 @@ function Topnav() {
       </a>
       {
           user ? (
-            <div className="dropdown text-end d-lg-block d-xl-none">
             <NavLink to="/" className="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-              <img src={Image} alt="mdo" width="32" height="32" className="rounded-circle border" />
+              <img src={Image} alt="mdo" width="38" height="38" className="rounded-circle border" />
             </NavLink>
-            <ul className="dropdown-menu text-small d-flex flex-column h-50 fixed-right align-items-start justify-content-between" >
-              <li><NavLink className="dropdown-item" to="/my-cart">My Cart</NavLink></li>
-              <li><NavLink className="dropdown-item" to="/profile">My Profile</NavLink></li>
-              <li><NavLink className="dropdown-item" to="/services/#">Add To Cart</NavLink></li>
-              <li><NavLink className="dropdown-item" to="/help-centre">Get Help</NavLink></li>
-            </ul>
-          </div>
           ) : (
             <div className="text-end">
               <NavLink to='/login' className="btn btn-outline-success me-2" role='button'>Login</NavLink>
               <NavLink to='/register' className="btn btn-outline-secondary me-2 " role='button'>Register</NavLink>
-          </div>
+            </div>
           )
       } 
     </div>
