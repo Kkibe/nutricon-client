@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useEffect } from 'react';
-import {Link} from 'react-router-dom';
+import {NavLink, Link} from 'react-router-dom';
 import Image from '../assets/kidney.png';
 
 function Service({data}) {
@@ -33,7 +33,7 @@ function Service({data}) {
                             
                             <li className="text-muted text-right border bg-light lead">${data.price}</li>
                         </ul>
-                        <Link to={`/services/${data.id}`} className="h5 text-decoration-none text-dark">{data.title} </Link>
+                        <NavLink to={`/services/${data.id}`} className="h5 text-decoration-none text-dark">{data.title} </NavLink>
                         <p className="card-text mt-3">{data.desc}</p>
 
                         <div className="d-flex justify-content-between">
