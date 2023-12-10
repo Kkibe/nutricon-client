@@ -46,8 +46,8 @@ export const services = [
         longDesc: 'Promotion and prevention interventions work by identifying the individual, social and structural determinants of mental health, and then intervening to reduce risks, build resilience and establish supportive environments for mental health. Interventions can be designed for individuals, specific groups or whole populations.',
         links: [
             {
-                name: 'Nutricon',
-                link:''
+                name: 'Who.int',
+                link:'https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response'
             },
         ],
         ratings: 256,
@@ -94,8 +94,8 @@ export const services = [
         longDesc: '',
         links: [
             {
-                name: 'Nutricon',
-                link:''
+                name: 'Thrive.org.uk',
+                link:'https://www.thrive.org.uk/get-gardening/how-gardening-can-support-through-menopause?gad_source=1&gclid=CjwKCAiAvdCrBhBREiwAX6-6UrLp1TSRmKIIYbaij0NNBFhJiFj2oJHm7FXbbXHv9OmUmjPnXF_wnhoCmj8QAvD_BwE'
             },
         ],
         ratings: 256,
