@@ -22,9 +22,9 @@ function Topnav() {
               <img src={Image} alt="mdo" width="32" height="32" className="rounded-circle border" />
             </NavLink>
             <ul className="dropdown-menu text-small">
-              <li><a className="dropdown-item" href="#">New project...</a></li>
-              <li><a className="dropdown-item" href="#">Settings</a></li>
-              <li><a className="dropdown-item" href="#">Profile</a></li>
+              <li><NavLink className="dropdown-item" href="#">New project...</NavLink></li>
+              <li><NavLink className="dropdown-item" href="#">Settings</NavLink></li>
+              <li><NavLink className="dropdown-item" href="#">Profile</NavLink></li>
             </ul>
           </div>
           ) : (
@@ -45,7 +45,7 @@ function Topnav() {
           <li className="nav-item mx-2"><NavLink to='/contact' className='nav-link px-2' title='contact'>Contact</NavLink></li>
         </ul>
 
-      <div className="container d-flex flex-wrap justify-content-space-evenly">
+      <div className="container d-none flex-wrap justify-content-space-evenly">
         <form className="d-flex" role="search">
                 <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
                 <button className="btn btn-outline-dark" type="submit">Search</button>
