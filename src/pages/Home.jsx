@@ -12,7 +12,7 @@ import {Navigation, Pagination} from "swiper/modules";
 function Home() { 
   return (
     <div>
-      <section className="container py-5  d-flex flex-column align-items-center justify-content-center bg-light mb-2">
+      <section className="container py-2  d-flex flex-column align-items-center justify-content-center bg-light mb-2">
           <h1 className="display-4 fw-normal">Nutrition Consultation</h1>
           <p className="lead fw-normal lead text-start px-3">We are Specialised in Delivering Comprehensive, High Quality Nutrition Counselling and Help in Establishing Healthy Feeding Programs</p>
           <a className="btn btn-outline-success" href="#">Book Now</a>       
