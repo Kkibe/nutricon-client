@@ -33,7 +33,7 @@ function Service({data}) {
                             
                             <li className="text-muted text-right border bg-light lead">${data.price}</li>
                         </ul>
-                        <Link to=`/services/{data.id}` className="h5 text-decoration-none text-dark">{data.title} </Link>
+                        <Link to={`/services/${data.id}`} className="h5 text-decoration-none text-dark">{data.title} </Link>
                         <p className="card-text mt-3">{data.desc}</p>
 
                         <div className="d-flex justify-content-between">
