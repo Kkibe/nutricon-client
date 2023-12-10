@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useContext } from 'react';
 import Image from '../assets/img.png'
 import { UserContext } from '../UserContext';
@@ -6,7 +6,11 @@ import {  Link, NavLink} from "react-router-dom";
 import Icon from '../assets/icon.png';
 
 function Topnav() {
-  const {user, setUser} = useContext(UserContext); 
+  const {user, setUser} = useContext(UserContext);
+
+  useEffect(() => {
+    setUser(true);
+  }, []); 
   return (
   <nav className="text-bg-dark   bg-warning  sticky-top  ">
   <header className="p-0 border-bottom  ">
