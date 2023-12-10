@@ -30,35 +30,19 @@ function SinglePost() {
       </div>
 
 
-      <div class="container justify-content-center mt-5 border-left border-right">
+      <div className="container justify-content-center mt-5 border-left border-right">
 
-    <div class="d-flex justify-content-center pt-3 pb-2"> <input type="text" name="text" placeholder="+ Add a note" class="form-control addtxt"/> </div>
+    <div className="d-flex justify-content-center pt-3 pb-2"> <input type="text" name="text" placeholder="+ Add a note" className="form-control addtxt"/> </div>
 
-    <div class="d-flex justify-content-center py-2">
+    <div className="d-flex justify-content-center py-2">
 
-        <div class="second py-2 px-2"> <span class="text1">Type your note, and hit enter to add it</span>
+        <div className="second py-2 px-2"> <span className="text1">Type your note, and hit enter to add it</span>
 
-            <div class="d-flex justify-content-between py-1 pt-2">
+            <div className="d-flex justify-content-between py-1 pt-2">
 
-                <div><img src="https://i.imgur.com/AgAC1Is.jpg" width="18"/><span class="text2">Martha</span></div>
+                <div><img src="https://i.imgur.com/AgAC1Is.jpg" width="18"/><span className="text2">Martha</span></div>
 
-                <div><span class="text3">Upvote?</span><span class="thumbup"><i class="fa fa-thumbs-o-up"></i></span><span class="text4">3</span></div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-    <div class="d-flex justify-content-center py-2">
-
-        <div class="second py-2 px-2"> <span class="text1">Type your note, and hit enter to add it</span>
-
-            <div class="d-flex justify-content-between py-1 pt-2">
-
-                <div><img src="https://i.imgur.com/tPvlEdq.jpg" width="18"/><span class="text2">Curtis</span></div>
-
-                <div><span class="text3">Upvote?</span><span class="thumbup"><i class="fa fa-thumbs-o-up"></i></span><span class="text4">3</span></div>
+                <div><span className="text3">Upvote?</span><span className="thumbup"><i className="fa fa-thumbs-o-up"></i></span><span className="text4">3</span></div>
 
             </div>
 
@@ -66,15 +50,15 @@ function SinglePost() {
 
     </div>
 
-    <div class="d-flex justify-content-center py-2">
+    <div className="d-flex justify-content-center py-2">
 
-        <div class="second py-2 px-2"> <span class="text1">Type your note, and hit enter to add it</span>
+        <div className="second py-2 px-2"> <span className="text1">Type your note, and hit enter to add it</span>
 
-            <div class="d-flex justify-content-between py-1 pt-2">
+            <div className="d-flex justify-content-between py-1 pt-2">
 
-                <div><img src="https://i.imgur.com/gishFbz.png" width="18" height="18"/><span class="text2">Beth</span></div>
+                <div><img src="https://i.imgur.com/tPvlEdq.jpg" width="18"/><span className="text2">Curtis</span></div>
 
-                <div><span class="text3 text3o">Upvoted</span><span class="thumbup"><i class="fa fa-thumbs-up thumbupo"></i></span><span class="text4 text4i">1</span></div>
+                <div><span className="text3">Upvote?</span><span className="thumbup"><i className="fa fa-thumbs-o-up"></i></span><span className="text4">3</span></div>
 
             </div>
 
@@ -82,15 +66,31 @@ function SinglePost() {
 
     </div>
 
-    <div class="d-flex justify-content-center py-2 pb-3">
+    <div className="d-flex justify-content-center py-2">
 
-        <div class="second py-2 px-2"> <span class="text1">Type your note, and hit enter to add it</span>
+        <div className="second py-2 px-2"> <span className="text1">Type your note, and hit enter to add it</span>
 
-            <div class="d-flex justify-content-between py-1 pt-2">
+            <div className="d-flex justify-content-between py-1 pt-2">
 
-                <div><img src="https://i.imgur.com/tPvlEdq.jpg" width="18"/><span class="text2">Curtis</span></div>
+                <div><img src="https://i.imgur.com/gishFbz.png" width="18" height="18"/><span className="text2">Beth</span></div>
 
-                <div><span class="text3">Upvote?</span><span class="thumbup"><i class="fa fa-thumbs-o-up"></i></span><span class="text4 text4o">1</span></div>
+                <div><span className="text3 text3o">Upvoted</span><span className="thumbup"><i className="fa fa-thumbs-up thumbupo"></i></span><span className="text4 text4i">1</span></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div className="d-flex justify-content-center py-2 pb-3">
+
+        <div className="second py-2 px-2"> <span className="text1">Type your note, and hit enter to add it</span>
+
+            <div className="d-flex justify-content-between py-1 pt-2">
+
+                <div><img src="https://i.imgur.com/tPvlEdq.jpg" width="18"/><span className="text2">Curtis</span></div>
+
+                <div><span className="text3">Upvote?</span><span className="thumbup"><i className="fa fa-thumbs-o-up"></i></span><span className="text4 text4o">1</span></div>
 
             </div>
 
