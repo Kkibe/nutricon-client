@@ -105,8 +105,8 @@ export const services = [
     },
     {
      id: 7,
-        title: "Healthy lifestyle even at menopause",
-        desc: 'We are a Food and Nutritionconsultants organization that offer nutrition services and other related services.',
+        title: "General Dietary Guidelines. ",
+        desc: 'Get guided on what you should be planning to include on your menus.,
         longDesc: '',
         links: [
             {
