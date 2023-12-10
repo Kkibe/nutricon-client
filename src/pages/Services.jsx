@@ -10,7 +10,7 @@ function Services() {
   <div className='container'>
     <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-4 carousel slide">
 
-  <div class="carousel-inner">
+  <div className="carousel-inner">
       
       <div className="col carousel-item active">
         <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style={{
