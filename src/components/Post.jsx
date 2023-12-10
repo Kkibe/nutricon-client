@@ -1,4 +1,5 @@
 import Image from '../assets/img.png'
+import {  Link, NavLink} from "react-router-dom";
 
 function Post() {
   const data = {
@@ -18,7 +19,7 @@ function Post() {
       This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
       </p>
       <div className="d-flex justify-content-between align-items-center">
-        <a href={`/blogs`} className="btn border btn-light text-success">Read More &raquo;</a>
+        <NavLink href={`/blogs`} className="btn border btn-light text-success">Read More &raquo;</NavLink>
         <small className="text-muted">9 mins</small>
       </div>
       
